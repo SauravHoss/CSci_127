@@ -2,9 +2,6 @@
 #08/29/18
 #Shades a shape blue
 
-#A program that demonstrates the shades of red
-#Fall 2017
-
 import turtle				#Import the turtle drawing package
 
 turtle.colormode(255)		#Allows colors to be given as 0...255
