@@ -42,6 +42,27 @@ x = input()
 
 print( "Weeks Left: " + str(int(x) // 7))
 print("Days Left: " + str(int(x) % 7))
+________________________________________________________________________________
+#Saurav Hossain
+#09/05/18
+#Logic Operator
+
+def lo(x, y ,z):
+  if((x and y) or (x and z) or (y and z)):
+    return True
+  else:
+    return False
+________________________________________________________________________________
+#Saurav Hossain
+#09/05/18
+#Nand Gate
+
+def nanny(x, y):
+  if(not x and not y):
+    return True
+  else:
+    return False
+________________________________________________________________________________
 
 
 
