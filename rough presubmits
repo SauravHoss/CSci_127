@@ -1,5 +1,4 @@
 ________________________________________________________________________________
-kilometers to miles DD: October 4
 #Saurav Hossain 
 #09/04/18 
 #Converts km to m
@@ -8,7 +7,6 @@ x = input(“Convert km to m”)
 
 print (int(x)*0.621371)
 ________________________________________________________________________________
-prints starts DD: October 9
 #Saurav Hossain 
 #09/04/18 
 #Prints stars
@@ -18,7 +16,6 @@ x = input(“How many stars?”)
 for i in range(int(x)):
 	print(“*”)
 ________________________________________________________________________________
-input turtle commands DD: October 10
 #Saurav Hossain
 #09/05/18
 #Turtle moves on user command
@@ -36,6 +33,18 @@ for i in range(len(x)):
 	z = x[i: i+1]
 	t.forward(100)
 	t.left(int(z))	
+________________________________________________________________________________
+#Saurav Hossain
+#09/05/18
+#Days Left in Semester
+
+x = input()
+
+print( "Weeks Left: " + str(int(x) // 7))
+print("Days Left: " + str(int(x) % 7))
+
+
+
 
 
 
