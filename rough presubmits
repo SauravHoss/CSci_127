@@ -16,6 +16,28 @@ for i in range(5):
   x = input("Put number here")
   t.left(x)
   t.forward(100)
+  
+#takes in all numbers first
+
+#Import turt and name
+import turtle
+t = turtle.Turtle()
+
+#make it perrrrrrty
+t.color("violetred2", "hotpink")
+t.shape("turtle")
+
+
+nums = []
+
+for i in range (5):	
+	x = input("Put number here")
+	nums.append(x)	
+
+
+for items in nums:
+	t.left(int(items))
+	t.forward(100)
 ________________________________________________________________________________
 #Saurav Hossain
 #09/05/18
