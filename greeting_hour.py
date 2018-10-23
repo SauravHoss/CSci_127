@@ -2,9 +2,6 @@
 #09/21/18
 #Greeting Hour
 
-#Saurav Hossain 
-#09/08/18 
-#Time of day
 
 z = input()
 x = int(z)
