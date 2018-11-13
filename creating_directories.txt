@@ -1,0 +1,9 @@
+#Saurav Hossain
+#09/27/18
+#Unix Script
+
+mkdir projectFiles
+cd projectFiles
+mkdir source
+mkdir data
+mkdir results
