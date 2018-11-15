@@ -1,0 +1,5 @@
+#Saurav Hossain
+#10/30/18
+#Counting Files
+
+ls -l | grep ".py" | wc -l
